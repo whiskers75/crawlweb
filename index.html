@@ -1,0 +1,14 @@
+<h1>Crawl Online
+    Please wait to be redirected to Dropbox
+</h1>
+
+<script src="/socket.io/socket.io.js"></script>
+<script>
+  var socket = io.connect('http://localhost');
+  socket.on('dropbox', function (data) {
+      alert('Your id is: '+ data + '. Enter it as your name in Dungeon Crawl.');
+      setTimeout(function() {
+          redirect('/crawl')
+      },10000)
+  });
+</script>

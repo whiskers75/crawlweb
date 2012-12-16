@@ -1,0 +1,10 @@
+{
+  "name": "crawlweb",
+  "description": "Dungeon Crawl Stone Soup for the web",
+  "version": "0.0.1",
+  "dependencies": {
+    "tty.js": "*",
+    "socket.io": "*",
+    "dropbox.js": "*"
+  }
+}
