@@ -12,7 +12,7 @@ var app = tty.createServer({
     port: process.env.PORT
 });
 var fs = require("fs");
-var dropbox = require('dropbox.js');
+var dropbox = require('dropbox');
 var server = http.createServer(app);
 var io = s.listen(server);
 var db = new dropbox.Client({

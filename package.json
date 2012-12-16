@@ -5,6 +5,6 @@
   "dependencies": {
     "tty.js": "*",
     "socket.io": "*",
-    "dropbox.js": "*"
+    "dropbox": "*"
   }
 }
